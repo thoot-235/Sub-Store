@@ -6,7 +6,7 @@ import axios from "axios";
 const config =
     yaml.parse(
         fs.readFileSync(
-            "./config/subscriptions.yaml",
+            "./config/sub.yaml",
             "utf8"
         ));
 
