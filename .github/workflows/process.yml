@@ -27,11 +27,11 @@ jobs:
 
       - name: Submit-update
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "thoot-235"
+          git config user.email "thoot_235@163.com"
           
-          # 只提交生成的订阅文件
-          git add merged.txt merged_base64.txt
+
+          git add out/merged.txt out/merged_base64.txt 2>/dev/null || true
           
           if git diff --staged --quiet; then
             echo "没有新变化，跳过提交"
