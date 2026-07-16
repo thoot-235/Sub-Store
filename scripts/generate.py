@@ -8,9 +8,9 @@ from urllib.parse import urlparse, parse_qs
 from pathlib import Path
 
 # ====================== 配置 ======================
-CONFIG_FILE = "sub.yaml"
-OUTPUT_RAW = "merged.txt"
-OUTPUT_BASE64 = "merged_base64.txt"
+CONFIG_FILE = "../config/sub.yaml"
+OUTPUT_RAW = "../out/merged.txt"
+OUTPUT_BASE64 = "../out/merged_base64.txt"
 
 DEDUPE_MODE = "moderate"   # none / moderate / strict （推荐 moderate）
 TIMEOUT = 30

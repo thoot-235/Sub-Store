@@ -23,7 +23,7 @@ jobs:
           pip install requests pyyaml
 
       - name: Generate-consolidated-subscription
-        run: python generate.py
+        run: python scripts/generate.py
 
       - name: Submit-update
         run: |
