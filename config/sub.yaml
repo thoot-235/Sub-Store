@@ -4,6 +4,3 @@ subscriptions:
   - name: snakem982
     url: "https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/v2ray-2.txt"
 
-output:
-  clash: true
-  singbox: true

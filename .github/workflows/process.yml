@@ -1,48 +1,42 @@
-name: Generate Subscription
+name: Process-Subscriptions
 on:
-  workflow_dispatch:
+  # 定时触发：每天 UTC 时间 4:00 执行（北京时间中午12点）
   schedule:
-    - cron: "0 */6 * * *"
-permissions:
-  contents: write
+    - cron: '0 4 * * *'
+  # 手动触发
+  workflow_dispatch:
 jobs:
-  build:
-    runs-on:
-      ubuntu-latest
+  merge:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Check-out-code
         uses: actions/checkout@v4
-      - name: Setup Node
-        uses: actions/setup-node@v4
         with:
-          node-version: 22
-      - name: Install
+          fetch-depth: 0
+
+      - name: Set-up-Python-environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 安装依赖
         run: |
-          npm install
-      - name: Download Sub-Store
+          pip install requests pyyaml
+
+      - name: Generate-consolidated-subscription
+        run: python generate.py
+
+      - name: Submit-update
         run: |
-          mkdir -p sub-store
-          wget \
-          https://github.com/sub-store-org/Sub-Store/releases/download/2.36.7/sub-store.bundle.js \
-          -O sub-store/sub-store.js
-      - name: Generate
-        run: |
-          node scripts/generate.js
-      - name: Commit
-        run: |
-          git config \
-          --global user.email \
-          github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          git config \
-          --global user.name \
-          github-actions
+          # 只提交生成的订阅文件
+          git add merged.txt merged_base64.txt
           
-          git add out
-          
-          git commit \
-          -m "update subscription" \
-          || exit 0
-          
-          
-          git push
+          if git diff --staged --quiet; then
+            echo "没有新变化，跳过提交"
+          else
+            git commit -m "Auto merge subscriptions $(date +'%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "已提交更新"
+          fi
