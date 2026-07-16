@@ -1,0 +1,48 @@
+name: Generate Subscription
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on:
+      ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
+        run: |
+          npm install
+      - name: Download Sub-Store
+        run: |
+          mkdir -p sub-store
+          wget \
+          https://github.com/sub-store-org/Sub-Store/releases/download/2.36.7/sub-store.bundle.js \
+          -O sub-store/sub-store.js
+      - name: Generate
+        run: |
+          node scripts/generate.js
+      - name: Commit
+        run: |
+          git config \
+          --global user.email \
+          github-actions@github.com
+          
+          git config \
+          --global user.name \
+          github-actions
+          
+          git add out
+          
+          git commit \
+          -m "update subscription" \
+          || exit 0
+          
+          
+          git push
