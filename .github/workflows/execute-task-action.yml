@@ -16,23 +16,24 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Check-out-code
+      - name: 映射仓库代码
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set-up-Python-environment
+      - name: 设置Python环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install-dependencies
+
+      - name: 安装Python依赖包
         run: |
           pip install requests pyyaml
 
-      - name: Generate-consolidated-subscription
-        run: python scripts/generate.py
+      - name: 执行合并订阅
+        run: python scripts/execute_merge.py
 
-      - name: Submit-update
+      - name: 提交更新
         run: |
           git config user.name "thoot-235"
           git config user.email "thoot_235@163.com"

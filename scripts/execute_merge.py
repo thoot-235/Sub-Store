@@ -76,7 +76,14 @@ def main():
             print(f"获取失败: {e}")
             time.sleep(1)
     print("\n==============================")
-    print(f"全部合并节点数量: {len(all_nodes)}")
+    all_count = len(all_nodes)
+    print(f"全部合并节点数量: {all_count}")
+
+    print("\n===============正在去重===============")
+    # 整行去重
+    all_nodes = list(dict.fromkeys(all_nodes))
+    done_count = len(all_nodes)
+    print(f"去重后节点数量: {done_count} , 删除重复节点: {all_count-done_count}")
     Path("out").mkdir(exist_ok=True)
     Path(OUTPUT_RAW).write_text("\n".join(all_nodes),encoding="utf-8")
     print(f"输出文件: {OUTPUT_RAW}")
