@@ -4,6 +4,55 @@ subscriptions:
       url: "https://raw.githubusercontent.com/ssrsub/ssr/refs/heads/master/v2ray"
     - name: snakem982
       url: "https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/v2ray-2.txt"
+    - name: peasoft
+      url: "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
+    - name: LalatinaHub
+      url: "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes"
+    - name: AzadNetCH-1
+      url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.txt"
+    - name: AzadNetCH-2
+      url: "https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet_hy.txt"
+    - name: none-1
+      url: "https://jiang.netlify.app/"
+    - name: Leon406-vless
+      url: "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless"
+    - name: Leon406-hysteria2
+      url: "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/hysteria2"
+    - name: Epodonios
+      url: "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt"
+    - name: Pawdroid
+      url: "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub"
+    - name: ripaojiedian
+      url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub"
+    - name: ermaozi
+      url: "https://raw.githubusercontent.com/ermaozi/get_subscribe/refs/heads/main/subscribe/v2ray.txt"
+    - name: xrayfree
+      url: "https://www.xrayvip.com/free.txt"
+    - name: banyunxiaoxi
+      url: "https://check.banyunxiaoxi.icu/sub/sub-base64.txt"
+    - name: awesome-vpn
+      url: "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
+    - name: 0xRadikal
+      url: "https://cdn.jsdelivr.net/gh/0xRadikal/Free-v2ray-Configs@main/all/configs.txt"
+    - name: cbusifabcap
+      url: "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/Z.txt"
+    - name: MrRabbitson
+      url: "https://raw.githubusercontent.com/MrRabbitson/RabbitProxyZ-proxy-list/refs/heads/main/sub.txt"
+    - name: RabbitProxyZ-proxy-list
+      url: "https://thoot.qzz.io?uuid=LCoXbi1O&addr=https://raw.githubusercontent.com/MrRabbitson/RabbitProxyZ-proxy-list/refs/heads/main/whitelists.txt"
+    - name: MatinGhanbari
+      url: "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt"
+    - name: anonymouskeys
+      url: "https://raw.githubusercontent.com/anonymouskeys/Vpn/main/subscription.txt"
+
+
+#   2026-07-17 未更新
+#    - name: "https://github.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter"
+#      url: "https://q3dlaxpoaq.github.io/APIs/cg1.txt"
+#   2026-07-17 打不开订阅
+#    - name: "https://github.com/abshare3/abshare3.github.io"
+#      url: "https://2s4Ie9.absslk.xyz/f63633e04be98a73c5987873e205dc3f"
+
   Clash:
     - name: 111
       url: www.baidu.com
