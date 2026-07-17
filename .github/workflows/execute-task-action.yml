@@ -1,10 +1,17 @@
-name: Process-Subscriptions
+name: Execute-Task-Action-Subscriptions
+
 on:
-  # 定时触发：每天 UTC 时间 4:00 执行（北京时间中午12点）
+  # 定时触发：每天 UTC 时间 6:00 执行（北京时间中午12点）
   schedule:
-    - cron: '0 4 * * *'
+    # 北京时间每天 08:00
+    - cron: "0 0 * * *"
+    # 北京时间每天 13:00
+    - cron: "0 5 * * *"
   # 手动触发
   workflow_dispatch:
+env:
+  # time zone
+  TZ: Asia/Shanghai
 jobs:
   merge:
     runs-on: ubuntu-latest
@@ -29,14 +36,11 @@ jobs:
         run: |
           git config user.name "thoot-235"
           git config user.email "thoot_235@163.com"
-          
-
-          git add out/merged.txt out/merged_base64.txt 2>/dev/null || true
-          
+          git add out/* 
           if git diff --staged --quiet; then
             echo "没有新变化，跳过提交"
           else
-            git commit -m "Auto merge subscriptions $(date +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Auto merge subscriptions result $(date +'%Y-%m-%d %H:%M UTC')"
             git push
             echo "已提交更新"
           fi

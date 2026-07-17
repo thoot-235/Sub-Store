@@ -7,8 +7,8 @@ from pathlib import Path
 
 
 # ====================== 配置 ======================
-CONFIG_FILE = "config/sub.yaml"
-OUTPUT_RAW = "out/merged.txt"
+CONFIG_FILE = "config/Subscriptions-config.yaml"
+OUTPUT_RAW = "out/result.txt"
 TIMEOUT = 30
 # ================================================
 def load_config():
@@ -53,7 +53,7 @@ def parse_nodes(content):
 # ====================== 主程序 ======================
 def main():
     config = load_config()
-    subs = config.get("subscriptions",[])
+    subs = config.get("subscriptions",[]).get("v2rayN", [])
     print(f"加载订阅数量: {len(subs)}")
     all_nodes=[]
     for sub in subs:
