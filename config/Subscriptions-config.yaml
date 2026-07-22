@@ -1,59 +1,208 @@
 subscriptions:
   v2rayN:
-    - name: ssrsub
+    - name: https://github.com/ssrsub/ssr
       url: "https://raw.githubusercontent.com/ssrsub/ssr/refs/heads/master/v2ray"
-    - name: snakem982
+    - name: https://github.com/snakem982/proxypool
       url: "https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/v2ray-2.txt"
-    - name: peasoft
+    - name: https://github.com/peasoft/NoMoreWalls
       url: "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
-    - name: LalatinaHub
+    - name: https://github.com/LalatinaHub/Mineral
       url: "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes"
-    - name: AzadNetCH-1
+    - name: https://github.com/AzadNetCH/Clash      # 待观察
       url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.txt"
-    - name: AzadNetCH-2
+    - name: https://github.com/AzadNetCH/Clash      # 待观察
       url: "https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet_hy.txt"
-    - name: none-1
-      url: "https://jiang.netlify.app/"
-    - name: Leon406-vless
+    - name: https://github.com/Leon406/SubCrawler
       url: "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless"
-    - name: Leon406-hysteria2
+    - name: https://github.com/Leon406/SubCrawler
       url: "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/hysteria2"
-    - name: Epodonios
+    - name: https://github.com/Epodonios/v2ray-configs
       url: "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt"
-    - name: Pawdroid
+    - name: https://github.com/Pawdroid/Free-servers
       url: "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub"
-    - name: ripaojiedian
+    - name: https://github.com/ripaojiedian/freenode
       url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub"
-    - name: ermaozi
-      url: "https://raw.githubusercontent.com/ermaozi/get_subscribe/refs/heads/main/subscribe/v2ray.txt"
-    - name: xrayfree
+    - name: https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash
       url: "https://www.xrayvip.com/free.txt"
-    - name: banyunxiaoxi
-      url: "https://check.banyunxiaoxi.icu/sub/sub-base64.txt"
-    - name: awesome-vpn
+    - name: https://github.com/awesome-vpn/awesome-vpn
       url: "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
-    - name: 0xRadikal
+    - name: https://github.com/0xRadikal/Free-v2ray-Configs
       url: "https://cdn.jsdelivr.net/gh/0xRadikal/Free-v2ray-Configs@main/all/configs.txt"
-    - name: cbusifabcap
+    - name: https://github.com/cbusifabcap/daily_free_vpn
       url: "https://raw.githubusercontent.com/cbusifabcap/daily_free_vpn/refs/heads/main/Z.txt"
-    - name: MrRabbitson
-      url: "https://raw.githubusercontent.com/MrRabbitson/RabbitProxyZ-proxy-list/refs/heads/main/sub.txt"
-    - name: RabbitProxyZ-proxy-list
-      url: "https://thoot.qzz.io?uuid=LCoXbi1O&addr=https://raw.githubusercontent.com/MrRabbitson/RabbitProxyZ-proxy-list/refs/heads/main/whitelists.txt"
-    - name: MatinGhanbari
+    - name: https://github.com/MatinGhanbari/v2ray-configs
       url: "https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/main/subscriptions/v2ray/all_sub.txt"
-    - name: anonymouskeys
+    - name: https://github.com/anonymouskeys/Vpn
       url: "https://raw.githubusercontent.com/anonymouskeys/Vpn/main/subscription.txt"
+    # 2026-07-20 ---> 来源 https://github.com/Danialsamadi/v2go/blob/main/main.go
+    - name: https://github.com/ALIILAPRO/v2rayNG-Config
+      url: "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt"
+    - name: https://github.com/mfuu/v2ray
+      url: "https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_1.txt"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_2.txt"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_3.txt"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mci/sub_4.txt"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_1.txt"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_2.txt"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_3.txt"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_4.txt"
+    - name: https://github.com/mahsanet/MahsaFreeConfig
+      url: "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/app/sub.txt"
+    - name: https://github.com/Surfboardv2ray/TGParse
+      url: "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed"
+    - name: https://github.com/Surfboardv2ray/TGParse
+      url: "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/refs/heads/main/configtg.txt"
+    - name: https://github.com/itsyebekhe/PSG
+      url: "https://raw.githubusercontent.com/itsyebekhe/PSG/refs/heads/main/config.txt"
+    - name: https://github.com/arshiacomplus/v2rayExtractor
+      url: "https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html"
+    - name: https://github.com/Rayan-Config/C-Sub
+      url: "https://raw.githubusercontent.com/Rayan-Config/C-Sub/refs/heads/main/configs/proxy.txt"
+    - name: https://github.com/mahdibland/V2RayAggregator
+      url: "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt"
+    - name: https://github.com/mahdibland/V2RayAggregator
+      url: "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.txt"
+    - name: https://github.com/MahsaNetConfigTopic/config
+      url: "https://github.com/MahsaNetConfigTopic/config/blob/main/xray_final.txt"
+    - name: https://github.com/ebrasha/free-v2ray-public-list     # 下载
+      url: "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/all_extracted_configs.txt"
+    - name: https://github.com/miladtahanian/Config-Collector
+      url: "https://raw.githubusercontent.com/miladtahanian/Config-Collector/main/mixed_iran.txt"
+    - name: https://github.com/miladtahanian/V2RayCFGDumper
+      url: "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt"
+    - name: https://github.com/SoliSpirit/v2ray-configs           # 下载
+      url: "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt"
+    - name: https://github.com/mohamadfg-dev/telegram-v2ray-configs-collector
+      url: "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt"
+    - name: https://github.com/mohamadfg-dev/telegram-v2ray-configs-collector
+      url: "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/ss.txt"
+    - name: https://github.com/mohamadfg-dev/telegram-v2ray-configs-collector
+      url: "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vmess.txt"
+    - name: https://github.com/mohamadfg-dev/telegram-v2ray-configs-collector
+      url: "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/trojan.txt"
+    - name: https://github.com/shabane/kamaji
+      url: "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt"
+    - name: https://github.com/igareck/vpn-configs-for-russia
+      url: "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt"
+    - name: https://github.com/igareck/vpn-configs-for-russia
+      url: "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt"
+    - name: https://github.com/igareck/vpn-configs-for-russia
+      url: "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS+All_RUS.txt"
+    - name: none
+      url: "https://jiang.netlify.app/"
+    - name: none
+      url: "https://check.banyunxiaoxi.icu/sub/sub-base64.txt"
+    - name: none
+      url: "https://v2.alicivil.workers.dev"
+    - name: https://github.com/10ium/VpnClashFaCollector
+      url: "https://raw.githubusercontent.com/10ium/VpnClashFaCollector/refs/heads/main/sub/all/mixed.txt"
+    - name: https://github.com/10ium/telegram-configs-collector
+      url: "https://raw.githubusercontent.com/10ium/telegram-configs-collector/main/splitted/mixed"
+    # 2026-07-20 ---> 来源  https://github.com/10ium/free-config/blob/main/worker/great_mihomo_converter
+    - name: https://github.com/10ium/multi-proxy-config-fetcher
+      url: "https://raw.githubusercontent.com/10ium/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt"
+    - name: https://github.com/10ium/HiN-VPN
+      url: "https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/normal/mix"
+    - name: https://github.com/10ium/V2Hub3
+      url: "https://raw.githubusercontent.com/10ium/V2Hub3/main/merged"
+    - name: https://github.com/roosterkid/openproxylist
+      url: "https://raw.githubusercontent.com/roosterkid/openproxylist/refs/heads/main/V2RAY_RAW.txt"
+    - name: https://github.com/maimengmeng/mysub
+      url: "https://github.com/maimengmeng/mysub/raw/refs/heads/main/valid_content_all.txt"
+    - name: https://github.com/liketolivefree/kobabi
+      url: "https://raw.githubusercontent.com/liketolivefree/kobabi/main/sub_all.txt"
+    - name: https://github.com/hamedp-71/N_sub_cheker
+      url: "https://raw.githubusercontent.com/hamedp-71/N_sub_cheker/refs/heads/patch-1/final.txt"
+    - name: https://github.com/peweza/PUBLICSUB
+      url: "https://raw.githubusercontent.com/peweza/PUBLICSUB/refs/heads/main/PewezaVPNPubSUB"
+    - name: none
+      url: "https://v2.alicivil.workers.dev/?list=mix&count=500&shuffle=false&unique=false"
+    # 2026-07-20 ---> 来源  https://github.com/10ium/V2RayAggregator
+    - name: https://github.com/Ashkan-m/v2ray
+      url: "https://raw.githubusercontent.com/Ashkan-m/v2ray/refs/heads/main/Sub.txt"
+    - name: https://github.com/Barabama/FreeNodes
+      url: "https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/feat/ai-crawler-v2/nodes/merged.txt"
+    - name: https://github.com/free18/v2ray
+      url: "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt"
+    - name: https://github.com/Ruk1ng001/freeSub
+      url: "https://gh-proxy.com/raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray"
+    - name: https://github.com/xtoolkit/TVC
+      url: https://raw.githubusercontent.com/xtoolkit/TVC/refs/heads/main/config.txt
 
 
-#   2026-07-17 未更新
-#    - name: "https://github.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter"
+
+
+# 其它网址  https://github.com/mermeroo/V2RAY-CLASH-BASE64-Subscription.Links/blob/main/SUB%20LINKS
+
+#    2026-07-22 有更新 但是没有可用节点
+#    - name: https://github.com/ermaozi/get_subscribe
+#      url: "https://raw.githubusercontent.com/ermaozi/get_subscribe/refs/heads/main/subscribe/v2ray.txt"
+#    - name: https://github.com/ermaozi01/free_clash_vpn
+#      url: "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt"
+#    - name: https://github.com/ts-sf/fly
+#      url: "https://raw.githubusercontent.com/ts-sf/fly/main/v2"
+#    - name: https://github.com/firefoxmmx2/v2rayshare_subcription
+#      url: "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/vray_sub.txt"
+#    - name: https://github.com/Freedom-Guard-Builder/Freedom-Finder
+#      url: "https://raw.githubusercontent.com/Freedom-Guard-Builder/Freedom-Finder/refs/heads/main/out/configs/all.txt"
+#    - name: https://github.com/MrBihal/Channel-Hddify
+#      url: "https://raw.githubusercontent.com/MrBihal/Channel-Hddify/refs/heads/main/SCAN"
+
+#    2026-07-17 未更新
+#    - name: https://github.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter
 #      url: "https://q3dlaxpoaq.github.io/APIs/cg1.txt"
-#   2026-07-17 打不开订阅
+#    - name: https://github.com/yebekhe/vpn-fail
+#      url: "https://raw.githubusercontent.com/yebekhe/vpn-fail/refs/heads/main/sub-link"
+#    - name: https://github.com/Stinsonysm/GO_V2rayCollector
+#      url: "https://raw.githubusercontent.com/HosseinKoofi/GO_V2rayCollector/main/mixed_iran.txt"
+#    - name: https://github.com/Everyday-VPN/Everyday-VPN
+#      url: "https://raw.githubusercontent.com/Everyday-VPN/Everyday-VPN/main/subscription/main.txt"
+#    - name: https://github.com/V2RayRoot/V2RayConfig
+#      url: "https://github.com/V2RayRoot/V2RayConfig/blob/main/Config/vless.txt"
+#    - name: https://github.com/V2RayRoot/V2RayConfig
+#      url: "https://github.com/V2RayRoot/V2RayConfig/blob/main/Config/vmess.txt"
+#    - name: https://github.com/V2RayRoot/V2RayConfig
+#      url: "https://github.com/V2RayRoot/V2RayConfig/blob/main/Config/shadowsocks.txt"
+#    - name: https://github.com/Kolandone/v2raycollector
+#      url: "https://raw.githubusercontent.com/Kolandone/v2raycollector/refs/heads/main/config.txt"
+#    - name: https://github.com/frank-vpl/servers
+#      url: "https://raw.githubusercontent.com/frank-vpl/servers/refs/heads/main/irbox"
+#    - name: https://github.com/MrRabbitson/RabbitProxyZ-proxy-list
+#      url: "https://raw.githubusercontent.com/MrRabbitson/RabbitProxyZ-proxy-list/refs/heads/main/sub.txt"
+#    - name: https://github.com/MrRabbitson/RabbitProxyZ-proxy-list
+#      url: "https://raw.githubusercontent.com/MrRabbitson/RabbitProxyZ-proxy-list/refs/heads/main/whitelists.txt"
+
+#    2026-07-17 打不开订阅
 #    - name: "https://github.com/abshare3/abshare3.github.io"
 #      url: "https://2s4Ie9.absslk.xyz/f63633e04be98a73c5987873e205dc3f"
 
-  Clash:
-    - name: 111
-      url: www.baidu.com
+#    2026-07-20 ---> 来源 https://github.com/mahdibland/V2RayAggregator     已检查完订阅
 
+  Clash:
+    - name: https://github.com/asgharkapk/Free-Clash-Meta
+      url: ""
+    - name: https://github.com/mahdibland/get_v2
+      url: ""
+    - name: https://github.com/SnapdragonLee/SystemProxy
+      url: ""
+    - name: https://github.com/10ium/VpnClashFaCollector
+      url: "https://github.com/10ium/VpnClashFaCollector/blob/main/sub/final/all_mixed/clash.yaml"
+
+    - name: https://github.com/10ium/VpnClashFaCollector
+      url: "https://github.com/10ium/VpnClashFaCollector/tree/main/sub/split/clash/mixed"
+    - name: none
+      url: "http://66.42.50.118:12580/clash/proxies"
+
+    - name: https://github.com/anaer/Sub
+      url: "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml"
+    - name: none
+      url: "https://proxypool.link/clash/proxies"

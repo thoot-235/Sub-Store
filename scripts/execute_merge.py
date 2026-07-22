@@ -8,7 +8,9 @@ from pathlib import Path
 
 # ====================== 配置 ======================
 CONFIG_FILE = "config/Subscriptions-config.yaml"
-OUTPUT_RAW = "out/result.txt"
+OUTPUT_DIR = "out"
+OUTPUT_PREFIX = "result"
+MAX_LINES_PER_FILE = 10000
 TIMEOUT = 30
 # ================================================
 def load_config():
@@ -84,9 +86,16 @@ def main():
     all_nodes = list(dict.fromkeys(all_nodes))
     done_count = len(all_nodes)
     print(f"去重后节点数量: {done_count} , 删除重复节点: {all_count-done_count}")
-    Path("out").mkdir(exist_ok=True)
-    Path(OUTPUT_RAW).write_text("\n".join(all_nodes),encoding="utf-8")
-    print(f"输出文件: {OUTPUT_RAW}")
 
+    Path(OUTPUT_DIR).mkdir(exist_ok=True)
+    file_count = (len(all_nodes) + MAX_LINES_PER_FILE - 1) // MAX_LINES_PER_FILE
+    for i in range(file_count):
+        start = i * MAX_LINES_PER_FILE
+        end = start + MAX_LINES_PER_FILE
+        chunk = all_nodes[start:end]
+        filename = Path(OUTPUT_DIR) / f"{OUTPUT_PREFIX}{i + 1}.txt"
+        filename.write_text("\n".join(chunk), encoding="utf-8")
+        print(f"输出文件: {filename} ({len(chunk)} 个节点)")
+    print(f"\n共生成 {file_count} 个文件")
 if __name__ == "__main__":
     main()
