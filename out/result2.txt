@@ -1,3 +1,5 @@
+vless://6461860a-d367-4d47-8e82-7d8e1047a152@104.19.39.100:2083?type=ws&security=tls&sni=&host=aier.eu.cc&path=%2F#CF%E4%B8%AD%E8%BD%AC_08080915114
+vless://df862b4c-2150-4b36-81ac-405036cf9ff6@104.26.6.69:2053?type=ws&security=tls&sni=&host=kalami-eew.pages.dev&path=%2F#CF%E4%B8%AD%E8%BD%AC_08080915115
 vless://153bbad3-26c8-4690-beae-676c77e73b52@188.114.96.102:443?mode=packet-up&path=/DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=20&security=tls&alpn=h2,http/1.1&encryption=none&extra={"xPaddingBytes":"100-1000"}&insecure=0&host=kingwillbeback.nivoxa.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=kingwillbeback.nivoxa.ir#CF%E4%B8%AD%E8%BD%AC_08080915116
 vless://cb213db5-803d-49dd-a7e2-46d938af0751@104.18.4.130:2082?type=ws&encryption=none&flow=&host=amiroo-l43dac88-v2.amiroo-d8b.workers.dev&path=#CF%E4%B8%AD%E8%BD%AC_08080915117
 vless://50414e45-4c5f-5a45-5553-3ff45107023a@104.21.12.39:443?&security=tls&fp=ios&sni=zeus-panel-w3clf2.zeus-lg0jv6.workers.dev&type=ws&headerType=none&host=zeus-panel-w3clf2.zeus-lg0jv6.workers.dev&path=%2Fstream%2FPANEL_ZEUS%2F50414e45#CF%E4%B8%AD%E8%BD%AC_08080915118
@@ -9996,5 +9998,3 @@ vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@104.18.214.30:443?Telegram=@Gozarga
 vless://b28eb861-1748-4200-ba72-278669edc33b@104.16.16.135:80?path=/?ed=2560&security=none&encryption=none&host=coco.mahmoodchitooz.dpdns.org&type=ws#CF%E4%B8%AD%E8%BD%AC_0808099578
 vless://df862b4c-2150-4b36-81ac-405036cf9ff6@104.19.32.21:443?type=ws&security=tls&sni=&host=kalami-eew.pages.dev&path=%2F#CF%E4%B8%AD%E8%BD%AC_0808099579
 vless://6461860a-d367-4d47-8e82-7d8e1047a152@172.64.229.224:8443?type=ws&security=tls&sni=&host=aier.eu.cc&path=%2F#CF%E4%B8%AD%E8%BD%AC_080809958
-vless://52f94104-7a84-4342-8bcd-96969eb46cbe@108.162.198.4:2083?sni=tristandeng.cc.cd&type=ws&host=tristandeng.cc.cd&security=tls#CF%E4%B8%AD%E8%BD%AC_0808099580
-vless://47fcef29-ab4e-4aa6-932b-d95a18f28a4e@172.64.154.8:443?allowInsecure=1&sni=8nj2r.2k8t.f88.hh.vavava.kdns.fr&type=ws&host=8nj2r.2k8t.f88.hh.vavava.kdns.fr&path=/?ed=2560security=tls#CF%E4%B8%AD%E8%BD%AC_0808099581
